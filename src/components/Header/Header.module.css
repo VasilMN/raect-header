@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+  background: red;
+  
+}
+.container {
+    padding-top: 10px;
+    /* width: 1082px; */
+    margin: 0 auto;
+   
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }

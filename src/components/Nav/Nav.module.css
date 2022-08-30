@@ -1,0 +1,15 @@
+.links {
+    display: flex;
+  }
+  
+  .link {
+    margin-right: 60px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500px;
+    
+  }
+  .link a {
+    text-decoration: none;
+    color: white;
+  }
