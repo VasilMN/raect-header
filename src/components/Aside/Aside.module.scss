@@ -1,0 +1,15 @@
+.conteiner {
+    width: 200px;
+    height: 100vh;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-200px);
+    transition: transform 0.3s linear;
+
+  
+}
+.open {
+    transform: translateX(0);
+}

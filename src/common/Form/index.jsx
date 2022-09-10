@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Button } from "../Button";
 import { Input } from "../Input";
-import styles from "./Form.module.css"
+import styles from "./Form.module.scss"
 
 export class Form extends Component {
     render () {
