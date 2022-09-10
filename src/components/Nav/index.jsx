@@ -1,23 +1,41 @@
 import { Component } from "react";
+import { NavLink } from "react-router-dom"
 import styles from "./Nav.module.css"
+import { getActivClassName } from "./utils";
 
 export class Nav extends Component {
-    render () {
-        return <nav className="" >
-        <ul className= {styles.links} >
-          <li className={styles.link} >
-            <a href="#">about</a>
-          </li>
-          <li className={styles.link} >
-            <a href="#">work</a>
-          </li>
-          <li className={styles.link}>
-            <a href="#">cases</a>
-          </li>
-          <li className={styles.link}>
-            <a href="#">contact</a>
-          </li>
-        </ul>
-      </nav>
-    }
+  render() {
+    return <nav className="" >
+      <ul className={styles.links} >
+      <li className={styles.link}>
+          <NavLink className={getActivClassName} to="/">Home</NavLink>
+
+        </li>
+        <li className={styles.link} >
+
+          <NavLink className={getActivClassName}  to="/about">About</NavLink>
+        </li>
+        <li className={styles.link} >
+
+          <NavLink className={getActivClassName  }
+            to="/counter">
+
+            Counter
+          </NavLink>
+
+        </li>
+        <li className={styles.link}>
+
+          <NavLink className={getActivClassName} to="/singup">Sing Up</NavLink>
+
+        </li>
+        <li className={styles.link}>
+
+          <NavLink className={getActivClassName} to="/login">Log In</NavLink>
+
+        </li>
+       
+      </ul>
+    </nav>
+  }
 }

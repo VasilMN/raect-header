@@ -23,7 +23,7 @@ export class Header extends Component {
                    <Nav />
                 </div>
             </div>
-           
+          
         </div>
        
     }
