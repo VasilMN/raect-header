@@ -1,0 +1,21 @@
+.counter {
+    width: 100%;
+    background-color:white;
+   height: 100vh;
+
+   .conteiner {
+
+    height: 100%;
+    padding: 0  60px;
+
+    .content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+}
+
+

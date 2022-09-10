@@ -1,6 +1,9 @@
 .header {
-    width: 100%;
+  width: calc( 100% - 200px);
   background: red;
+  padding: 20px 0;
+  position: absolute;
+  right: 0;
   
 }
 .container {

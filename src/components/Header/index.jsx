@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Nav } from "../Nav";
-import styles from "./Header.module.css";
-import logo from "../../assets/icons/logo_nextly.svg"
+import styles from "./Header.module.scss";
+
 
 
 export class Header extends Component {
@@ -13,10 +13,7 @@ export class Header extends Component {
                 <div className= {styles.content}>
                    <div>
                   
-                    <a href="#">
-                        <img src={logo} alt="alt" />
-                        
-                    </a>
+                   <button onClick={this.props.toggleAside}>OpenAside</button>
                   
                     
                    </div>
