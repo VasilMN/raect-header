@@ -13,7 +13,11 @@ export class Nav extends Component {
         </li>
         <li className={styles.link} >
 
-          <NavLink className={getActivClassName}  to="/about">About</NavLink>
+          <NavLink className={getActivClassName}  to="/users">Users</NavLink>
+        </li>
+        <li className={styles.link} >
+
+           <NavLink className={getActivClassName}  to="/product">Product</NavLink>
         </li>
         <li className={styles.link} >
 

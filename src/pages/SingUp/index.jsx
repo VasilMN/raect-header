@@ -1,6 +1,5 @@
 import { Component } from "react";
 import styles from "./SingUp.module.scss";
-import {Navigate} from "react-router-dom";
 import { withRaouter } from "../../hocs/withrouter"
 
 
